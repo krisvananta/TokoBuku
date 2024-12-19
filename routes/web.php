@@ -28,7 +28,7 @@ Route::get('/', function () {
     return view('/welcome');
 });
 
-// Routes for login and register
+// Routing for login and register
 Route::get('/register', [LoginController::class, 'register'])->name('register');
 Route::post('/register-proses', [LoginController::class, 'register_proses'])->name('register_proses');
 Route::get('/login', [LoginController::class, 'index'])->name('login');

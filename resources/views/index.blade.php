@@ -16,6 +16,7 @@
 
 <body>
     @extends('auth.layouts')
+
     <div class="table-container" id="home">
         <h1 class="text-center mb-4">Daftar Buku</h1>
         <table id="bookTable" class="table table-striped table-bordered table-hover" width="100%">

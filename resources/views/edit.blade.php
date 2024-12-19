@@ -2,6 +2,7 @@
 
 <div class="container">
     <h1>Edit Buku</h1>
+    
     <form action="{{ route('buku.update', $buku->id) }}" method="POST">
         @csrf
         @method('PUT')
